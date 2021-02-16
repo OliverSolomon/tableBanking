@@ -170,3 +170,74 @@ a {
         display: block;
     }
 }
+
+
+/* #################################### LogIn page */
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    box-shadow: -10px -10px 13px rgba(255, 255, 255, 0.425), 10px 10px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    min-height: 50vh;
+    min-width: 35%;
+    transform: translateY(45%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.logInIcon {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.pinLoc .fas {
+    margin-bottom: 1em;
+}
+
+input {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding: .5em;
+    width: 110%;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background: #ebe84994;
+    /* width: 120%; */
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-top: 1.8em;
+    transition: all .2s ease-out;
+}
+
+input[type=submit]:hover {
+    /* background: #FF738C; */
+    background: #eb6720a9;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* #################### index   */
