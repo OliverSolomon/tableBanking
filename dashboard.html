@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/6daa7dc696.js" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> -->
 
     <link rel="stylesheet" href="./static/style.css">
+
+    <!-- <script src="./static/charts.js"></script> -->
 
     <title>Dashboard</title>
 </head>
@@ -48,10 +51,25 @@
                 </div>
                 <div class="stats">
 
-                    <div id="graph" class="chart"></div>
-                    <div id="graph" class="chart"></div>
-                    <div id="graph" class="chart"></div>
-                    <div id="graph" class="chart"></div>
+                    <div id="graph" class="chart">
+                        <h3> Equity </h3>
+                        <img src="./static/images/donut.png" alt="">
+                    </div>
+
+                    <div id="graph" class="chart">
+                        <h3> Contributions </h3>
+                        <img src="./static/images/advancedPie.png" alt="" srcset="">
+                    </div>
+
+                    <div id="graph" class="chart">
+                        <h3> Liabilities </h3>
+                        <img src="./static/images/pie.png" alt="" srcset="">
+                    </div>
+
+                    <div id="graph" class="chart">
+                        <h3> Investments </h3>
+                        <img src="./static/images/bar.png" alt="" srcset="">
+                    </div>
 
 
                 </div>
@@ -64,6 +82,8 @@
             <p> Development is still ongoing for smaller devices(of width less than 700px).</p>
         </div>
     </div>
+
+    <!-- <script src="./static/charts.js"></script> -->
 </body>
 
 </html>
