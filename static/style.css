@@ -26,7 +26,7 @@ a {
 /* ####################### Dashboard */
 
 .landing div {
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .landing {
@@ -42,16 +42,72 @@ a {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    font-size: 1.1em;
+    background-color: rgba(138, 255, 123, 0.64);
+    box-shadow: -7px -7px 7px rgba(255, 255, 255, 0.25), 10px 10px 13px rgba(0, 0, 0, 0.25);
 }
 
 .user {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    padding: .6em;
+}
+
+.user p {
+    font-size: .9rem;
+    margin-top: 1.4em;
+}
+
+.user i {
+    font-size: 3rem;
+    padding: .6em;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    box-shadow: -7px -7px 7px rgba(255, 255, 255, 0.425), 10px 10px 13px rgba(0, 0, 0, 0.25)
+}
+
+.menu ul {
+    transform: translateY(-20%);
+}
+
+.menu ul li {
+    margin: 1em;
+    padding: .5em 1em;
+    border-radius: 8px;
+    transition: all ease-in .30s;
+}
+
+.menu ul li:hover {
+    box-shadow: -10px -10px 13px rgba(255, 255, 255, 0.425), 10px 10px 13px rgba(0, 0, 0, 0.25)
+}
+
+.generate {
+    font-size: 1rem;
+    padding: .5em 2.3em;
+    transform: translateY(-120%);
+    border-radius: 6px;
+    box-shadow: -7px -7px 10px rgba(255, 255, 255, 0.425), 7px 7px 10px rgba(0, 0, 0, 0.25);
+    transition: all .3s ease-in;
+}
+
+.generate:hover {
+    font-size: 1.05rem;
+    box-shadow: -10px -10px 13px rgba(255, 255, 255, 0.425), 10px 10px 13px rgba(0, 0, 0, 0.25)
 }
 
 .rightSection {
     width: 80%;
     height: 100vh;
+}
+
+.topNav {
+    width: 30%;
+    margin: auto;
+}
+
+.topNav ul {
+    display: flex;
+    justify-content: space-around;
 }
