@@ -241,3 +241,44 @@ input:focus {
 
 
 /* #################### index   */
+
+.choice-container {
+    /* text-align: center; */
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #4e4e4e33;
+    text-align: center;
+    height: 45vh;
+    transform: translateY(40%);
+    width: 40%;
+    margin: auto;
+    box-shadow: -10px -10px 13px rgba(255, 255, 255, 0.425), 10px 10px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.choices h2 {
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+.choices ul {
+    margin-top: 2em;
+    width: 50%;
+}
+
+.choices ul li {
+    margin-top: .5em;
+    padding: .5em 3em;
+    border-bottom: 1px solid #4e4e4e33;
+    transition: all .12s ease-out;
+}
+
+.choices ul li:hover {
+    box-shadow: -10px -10px 13px rgba(255, 255, 255, 0.425), 10px 10px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: #eb672085;
+}
