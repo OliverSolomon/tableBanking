@@ -164,6 +164,7 @@ img {
     /* animation: slideInfromLeft 1s ease-in; */
     width: 50%;
     margin: .5em;
+    cursor: pointer;
 }
 
 .chart h3 {
@@ -171,6 +172,7 @@ img {
     text-align: left;
     padding: 1em;
     margin: .5em;
+    cursor: pointer;
 }
 
 .small-screen {
