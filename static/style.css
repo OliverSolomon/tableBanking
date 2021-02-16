@@ -161,6 +161,7 @@ img {
 }
 
 .chart img {
+    /* animation: slideInfromLeft 1s ease-in; */
     width: 50%;
     margin: .5em;
 }
